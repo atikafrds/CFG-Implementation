@@ -1,0 +1,28 @@
+begin
+	output(7)
+	input(x)
+	output(x)
+	output(x+y)
+	if (a>=b) then
+	begin
+		if (a>=b) then
+		begin
+			input(x)
+		end
+	end
+	if (a=b) then
+	begin
+		do
+			input(x)
+		while(a>b)
+	end
+	do
+		input(x)
+	while(a>b)
+	do
+		if (a>=b) then
+		begin
+			input(x)
+		end
+	while(a>=b)
+end.

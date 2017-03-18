@@ -1,0 +1,45 @@
+/******** READ ME *********/
+
+
+Cara compile :
+
+	1. Copy kode yang ingin di compile ke file CompilerBin.txt
+
+	2. Tambahkan karakter '.' pada akhir kode program.
+
+
+Contoh input :
+
+	1. Block program ditandai dengan begin-end.
+
+	   contoh :
+		begin
+		    {sekumpulan argumen}
+		end.
+
+	2. Semua perintah program menggunakan huruf kecil.
+
+	3. Variable hanya berupa kumpulan huruf, baik huruf kecil maupun kapital.
+
+	   contoh :
+		a	{benar}
+		B	{benar}
+		found	{benar}
+		
+	4. Setiap kondisi untuk loop dan if-then berada di dalam tanda kurung buka dan kurung tutup.
+	
+	   contoh :
+		for (i=1 to 10) do
+		begin
+		    {arguments}
+		end 
+
+		do
+		    {arguments}
+		while (i<8)
+	
+		if (a>5) then
+		begin
+		    {arguments}
+		end
+	
